@@ -19,11 +19,12 @@ struct ListView: View {
                 ListRowView(title: item)
             }
         }
+        .listStyle(PlainListStyle())
         .navigationTitle("Todo list 💌")
         .navigationBarItems(
             leading: EditButton(),
             trailing:
-                NavigationLink("Add", destination: Text("Destination")))
+                NavigationLink("Add", destination: AddView()))
     }
 }
 

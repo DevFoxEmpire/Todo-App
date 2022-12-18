@@ -14,6 +14,7 @@
 		3D489C55294E96170003D747 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D489C54294E96170003D747 /* LocationsDataService.swift */; };
 		3D489C57294F748A0003D747 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D489C56294F748A0003D747 /* ListView.swift */; };
 		3D489C59294F767E0003D747 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D489C58294F767E0003D747 /* ListRowView.swift */; };
+		3D489C5B294F7C2E0003D747 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D489C5A294F7C2E0003D747 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3D489C54294E96170003D747 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		3D489C56294F748A0003D747 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		3D489C58294F767E0003D747 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		3D489C5A294F7C2E0003D747 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				3D489C56294F748A0003D747 /* ListView.swift */,
 				3D489C58294F767E0003D747 /* ListRowView.swift */,
+				3D489C5A294F7C2E0003D747 /* AddView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			files = (
 				3D489C59294F767E0003D747 /* ListRowView.swift in Sources */,
 				3D489C55294E96170003D747 /* LocationsDataService.swift in Sources */,
+				3D489C5B294F7C2E0003D747 /* AddView.swift in Sources */,
 				3D489C57294F748A0003D747 /* ListView.swift in Sources */,
 				3D489C52294E7FC20003D747 /* Location.swift in Sources */,
 				3D489C41294E74D00003D747 /* To_Do_ListApp.swift in Sources */,
