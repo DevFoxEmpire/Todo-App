@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListView: View {
     @EnvironmentObject var listViewModel: ListViewModel
-
+    
     var body: some View {
         List {
             ForEach(listViewModel.items) { item in
