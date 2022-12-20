@@ -19,7 +19,7 @@ import Foundation
 
 class ListViewModel: ObservableObject {
     @Published var items:[ItemModel] = [] {
-        didSet {
+        didSet { 
             saveItems()
         }
     }
